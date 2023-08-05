@@ -1,6 +1,9 @@
 # botnielbot
 Selamat datang di repositori terbuka BotOniel
 
+<blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="in" dir="ltr">SELAMAT PAGI DAN SALAM SEJAHTERA!<br>Sesuai janji dan komitmen saya untuk menyebarkan jokes <a href="https://twitter.com/C_OnielJKT48?ref_src=twsrc%5Etfw">@C_OnielJKT48</a> demi mewujudkan kebahagiaan bersama, maka dengan ini saya umumkan project lanjutan setelah buku kumpulan humor, yaitu:<br><br>BotOniel! <a href="https://t.co/u3237tEO6k">pic.twitter.com/u3237tEO6k</a></p>&mdash; Iqbal AR (@iqbalarpake48) <a href="https://twitter.com/iqbalarpake48/status/1685486897542676480?ref_src=twsrc%5Etfw">July 30, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 BotOniel merupakan sebuah bot Telegram yang dibangun untuk kalian dapat mengakses kumpulan jokes Oniel JKT48 (@C_OnielJKT48) secara random.
 Bot ini dirancang untuk dapat mengirim pesan berupa jokes dan quote yang telah dikumpulkan pada sebuah file Spreadsheet. Bot ini berjalan menggunakan Google Apps Script untuk menjalankan program dan diintegrasikan dengan Google Spreadsheet untuk database pesan yang akan dikirimkan
 Saat ini, direncanakan bot ini dapat mengirimkan video secara random dan menerima input pencarian
