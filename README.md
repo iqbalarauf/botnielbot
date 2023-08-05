@@ -3,8 +3,8 @@
 
 <blockquote class="twitter-tweet" data-dnt="true" align="left"><p lang="in" dir="ltr">SELAMAT PAGI DAN SALAM SEJAHTERA!<br>Sesuai janji dan komitmen saya untuk menyebarkan jokes <a href="https://twitter.com/C_OnielJKT48?ref_src=twsrc%5Etfw">@C_OnielJKT48</a> demi mewujudkan kebahagiaan bersama, maka dengan ini saya umumkan project lanjutan setelah buku kumpulan humor, yaitu:<br><br>BotOniel! <a href="https://t.co/u3237tEO6k">pic.twitter.com/u3237tEO6k</a></p>&mdash; Iqbal AR (@iqbalarpake48) <a href="https://twitter.com/iqbalarpake48/status/1685486897542676480?ref_src=twsrc%5Etfw">July 30, 2023</a></blockquote>
 
-BotOniel merupakan sebuah bot Telegram yang dibangun untuk kalian dapat mengakses kumpulan jokes Oniel JKT48 ([@C_OnielJKT48](https://twitter.com/C_OnielJKT48/)) secara random. \n
-Bot ini dirancang untuk dapat mengirim pesan berupa jokes dan quote yang telah dikumpulkan pada sebuah file Spreadsheet. Bot ini berjalan menggunakan Google Apps Script untuk menjalankan program dan diintegrasikan dengan Google Spreadsheet untuk database pesan yang akan dikirimkan \n
+BotOniel merupakan sebuah bot Telegram yang dibangun untuk kalian dapat mengakses kumpulan jokes Oniel JKT48 ([@C_OnielJKT48](https://twitter.com/C_OnielJKT48/)) secara random.
+Bot ini dirancang untuk dapat mengirim pesan berupa jokes dan quote yang telah dikumpulkan pada sebuah file Spreadsheet. Bot ini berjalan menggunakan Google Apps Script untuk menjalankan program dan diintegrasikan dengan Google Spreadsheet untuk database pesan yang akan dikirimkan
 Saat ini, direncanakan bot ini dapat mengirimkan video secara random dan menerima input pencarian
 
 Saat ini, bot Telegram dapat diakses [di sini](https://t.me/botnielbot/ "Open Telegram Bot")
@@ -14,5 +14,5 @@ Penggunaan Code
 Cukup copy-paste kode yang terdapat di menu.gs dan ganti Token Bot Telegram, ID Spreadsheet, dan Informasi Sheet (bisa ikuti komentar pada line kode)
 
 # Informasi
-Kode ini dapat dimanfaatkan juga untuk membuat Motivational Quotes Bot. Cara kerja program ini sama. \n
+Kode ini dapat dimanfaatkan juga untuk membuat Motivational Quotes Bot. Cara kerja program ini sama.
 Kode ini dapat digunakan secara bebas.
