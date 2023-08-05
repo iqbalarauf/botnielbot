@@ -1,5 +1,5 @@
 # botnielbot
-Selamat datamg di repositori terbuka BotOniel
+Selamat datang di repositori terbuka BotOniel
 
 BotOniel merupakan sebuah bot Telegram yang dibangun untuk kalian dapat mengakses kumpulan jokes Oniel JKT48 (@C_OnielJKT48) secara random.
 Bot ini dirancang untuk dapat mengirim pesan berupa jokes dan quote yang telah dikumpulkan pada sebuah file Spreadsheet. Bot ini berjalan menggunakan Google Apps Script untuk menjalankan program dan diintegrasikan dengan Google Spreadsheet untuk database pesan yang akan dikirimkan
