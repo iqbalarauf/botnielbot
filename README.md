@@ -1,4 +1,4 @@
-# BotOniel - botnielbot
+# BotOniel
 **Selamat datang di repositori BotOniel!**
 
 <blockquote class="twitter-tweet" data-dnt="true" align="left"><p lang="in" dir="ltr">SELAMAT PAGI DAN SALAM SEJAHTERA!<br>Sesuai janji dan komitmen saya untuk menyebarkan jokes <a href="https://twitter.com/C_OnielJKT48?ref_src=twsrc%5Etfw">@C_OnielJKT48</a> demi mewujudkan kebahagiaan bersama, maka dengan ini saya umumkan project lanjutan setelah buku kumpulan humor, yaitu:<br><br>BotOniel! <a href="https://t.co/u3237tEO6k">pic.twitter.com/u3237tEO6k</a></p>&mdash; Iqbal AR (@iqbalarpake48) <a href="https://twitter.com/iqbalarpake48/status/1685486897542676480?ref_src=twsrc%5Etfw">July 30, 2023</a></blockquote>
