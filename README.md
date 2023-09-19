@@ -22,5 +22,5 @@ Kode ini dapat dimanfaatkan juga untuk membuat Motivational Quotes Bot. Cara ker
 Kode ini dapat digunakan secara bebas.
 
 # Disclaimer
-Mengenai fitur Broadcast Message, diperlukan rumus tambahan dalam Spreadsheet untuk menyortir data duplikat pada log tanggal dan chatID.
-\ Gunakan fitur Unique dan Flatten untuk menyortir data log, kemudian hubungkan dengan function KirimBroadcastMessage
+Mengenai fitur Broadcast Message, diperlukan rumus tambahan dalam Spreadsheet untuk menyortir data duplikat pada log tanggal dan chatID.\
+Gunakan fitur Unique dan Flatten untuk menyortir data log, kemudian hubungkan dengan function KirimBroadcastMessage
