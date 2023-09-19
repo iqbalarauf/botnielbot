@@ -15,12 +15,10 @@ Function yang dibuat meliputi random pick dari data spreadsheet tertentu dan pen
 Anda juga dapat mengirimkan broadcast message dengan menghimpun log tanggal dan chatID pengguna Telegram yang mengakses bot (Update September)*
 
 # Cara Penggunaan
-Penggunaan Code cukup copy-paste kode yang terdapat di menu.gs dan ganti Token Bot Telegram, ID Spreadsheet, dan Informasi Sheet (bisa ikuti komentar pada line kode)
+Penggunaan Code cukup copy-paste kode yang terdapat di menu.gs dan ganti Token Bot Telegram, ID Spreadsheet, dan Informasi Sheet (bisa ikuti komentar pada line kode)\
+Mengenai fitur Broadcast Message, diperlukan rumus tambahan dalam Spreadsheet untuk menyortir data duplikat pada log tanggal dan chatID.\
+Gunakan fitur Unique dan Flatten untuk menyortir data log, kemudian hubungkan dengan function KirimBroadcastMessage
 
 # Informasi
 Kode ini dapat dimanfaatkan juga untuk membuat Motivational Quotes Bot. Cara kerja program ini sama.
 Kode ini dapat digunakan secara bebas.
-
-# Disclaimer
-Mengenai fitur Broadcast Message, diperlukan rumus tambahan dalam Spreadsheet untuk menyortir data duplikat pada log tanggal dan chatID.\
-Gunakan fitur Unique dan Flatten untuk menyortir data log, kemudian hubungkan dengan function KirimBroadcastMessage
