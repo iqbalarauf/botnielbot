@@ -12,6 +12,7 @@ Saat ini, bot Telegram dapat diakses [di sini](https://t.me/botnielbot/ "Open Te
 # Fitur
 Fitur yang disediakan pada bot ini adalah random jokes (text dan video) dan quotes, serta pencarian jokes berdasarkan kata kunci.
 Function yang dibuat meliputi random pick dari data spreadsheet tertentu dan pencarian data menggunakan kata kunci yang diinputkan
+Anda juga dapat mengirimkan broadcast message dengan menghimpun chatID pengguna Telegram yang mengakses bot (Update September)
 
 # Cara Penggunaan
 Penggunaan Code
