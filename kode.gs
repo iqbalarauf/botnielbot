@@ -126,6 +126,24 @@ function cariJokes(query) {
   return resultMessage;
 }
 
+// Fungsi mengirim Broadcast Message (tidak perlu dideploy, cukup run function ini melalui Apps Script)
+function kirimBroadcastTelegram() {
+  var spreadsheetId = "Spreadsheet-ID"; // Ganti dengan ID lembar kerja Anda
+  var sheetName = "Nama-Sheet"; // Ganti dengan nama lembar kerja Anda
+  var ss = SpreadsheetApp.openById(spreadsheetId);
+  var sheet = ss.getSheetByName(sheetName);
+  var range = sheet.getRange("A:A"); // Ganti dengan kolom yang diinginkan
+  var data = range.getValues();
+
+  Logger.log(data);
+
+  for (var i = 0; i < data.length; i++) {
+    var chatId = data[i][0]; // Asumsikan chat ID ada di kolom pertama (kolom A)
+    var pesan = "Tulis Pesan di sini"; // Ganti pesan di sini
+    sendText(chatId, pesan);
+  }
+}
+
 // Fungsi utama untuk menerima dan memproses permintaan dari bot Telegram
 function doPost(e) {
   var stringJson = e.postData.getDataAsString();
@@ -141,7 +159,7 @@ function doPost(e) {
       sendText(updates.message.chat.id, "Selamat datang. Gunakan '/help' untuk petunjuk penggunaan bot ini");
     }
     if(updates.message.text === "/input"){
-      sendText(updates.message.chat.id, "Terima kasih atas kesediaannya untuk berkontribusi terhadap BotOniel. Teman-teman bisa ikut berpartisipasi untuk input jokes dst.");
+      sendText(updates.message.chat.id, "Terima kasih atas kesediaannya untuk berkontribusi terhadap Bot ini"); // anda dapat mengganti pesannya di sini
     }
     if(updates.message.text === "/video"){
       sendText(updates.message.chat.id, getRandomVideoUrl());
@@ -158,6 +176,36 @@ function doPost(e) {
     if(updates.message.text === "/help"){
       sendText(updates.message.chat.id, "Tulis Pesanmu di sini"); // Pesan bisa ditulis
     }
+
+  var data = JSON.parse(e.postData.contents);
+  var chatId = data.message.chat.id;
+  
+  // Tentukan nama sheet yang ingin Anda gunakan untuk menyimpan chat_id
+  var sheetName = "Nama-Sheet";
+  var spreadsheet = Spreadsheet-ID");
+  var sheet = spreadsheet.getSheetByName(sheetName);
+  if (!sheet) {
+    sheet = spreadsheet.insertSheet(sheetName); // Buat sheet jika belum ada
+    sheet.appendRow(["Timestamp", "Chat ID"]); // Header kolom
+  }
+  
+  // Simpan chat_id dalam sheet
+  sheet.appendRow([new Date(), chatId]);
+  
+  var telegramUrl = "https://api.telegram.org/bot" + telegramToken + "/sendMessage";
+
+  var payload = {
+    "method": "sendMessage",
+    "chat_id": chatId,
+    "text": text
+  };
+
+  var options = {
+    "method": "post",
+    "payload": payload
+  };
+
+  UrlFetchApp.fetch(telegramUrl, options);
 }
 
 // Test Function berjalan atau tidak
