@@ -19,5 +19,6 @@ Penggunaan Code cukup copy-paste kode yang terdapat di menu.gs dan ganti Token B
 
 # Informasi
 Kode ini dapat dimanfaatkan juga untuk membuat Motivational Quotes Bot. Cara kerja program ini sama.
-Kode ini dapat digunakan secara bebas.\
+Kode ini dapat digunakan secara bebas.
+\
 Mengenai fitur Broadcast Message, diperlukan rumus tambahan dalam Spreadsheet untuk menyortir data duplikat pada log tanggal dan chatID.
