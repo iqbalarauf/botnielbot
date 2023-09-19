@@ -11,8 +11,8 @@ Saat ini, bot Telegram dapat diakses [di sini](https://t.me/botnielbot/ "Open Te
 
 # Fitur
 Fitur yang disediakan pada bot ini adalah random jokes (text dan video) dan quotes, serta pencarian jokes berdasarkan kata kunci.
-Function yang dibuat meliputi random pick dari data spreadsheet tertentu dan pencarian data menggunakan kata kunci yang diinputkan
-Anda juga dapat mengirimkan broadcast message dengan menghimpun chatID pengguna Telegram yang mengakses bot (Update September)
+Function yang dibuat meliputi random pick dari data spreadsheet tertentu dan pencarian data menggunakan kata kunci yang diinputkan.
+Anda juga dapat mengirimkan broadcast message dengan menghimpun log tanggal dan chatID pengguna Telegram yang mengakses bot (Update September)*
 
 # Cara Penggunaan
 Penggunaan Code
@@ -21,3 +21,5 @@ Cukup copy-paste kode yang terdapat di menu.gs dan ganti Token Bot Telegram, ID 
 # Informasi
 Kode ini dapat dimanfaatkan juga untuk membuat Motivational Quotes Bot. Cara kerja program ini sama.
 Kode ini dapat digunakan secara bebas.
+\n \n
+Mengenai fitur Broadcast Message, diperlukan rumus tambahan dalam Spreadsheet untuk menyortir data duplikat pada log tanggal dan chatID.
