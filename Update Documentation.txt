@@ -1,0 +1,121 @@
+Catatan Update BotOniel
+
+30 Juli 2023, 10.06
+SELAMAT PAGI DAN SALAM SEJAHTERA!
+Sesuai janji dan komitmen saya untuk menyebarkan jokes  @C_OnielJKT48 demi mewujudkan kebahagiaan bersama, maka dengan ini saya umumkan project lanjutan setelah buku kumpulan humor, yaitu BotOniel!
+
+BotOniel merupakan sebuah bot Telegram yang dibangun untuk kalian dapat mengakses kumpulan jokes Oniel secara random. Penggunaannya cukup dengan mengikuti video di atas atau baca instruksi /start
+
+Kalian bisa akses di link http://t.me/botnielbot
+Terima kasih
+
+---
+6 Agustus 2023, 13.05
+[UPDATE 2.0]
+Terdapat penambahan fitur yang dapat mempermudah teman-teman untuk mendapatkan jokes Oniel. Fitur command akan dijelaskan di thread selanjutnya. Input command '/jokes' dan '/quote' masih dapat digunakan seperti biasanya
+
+[PENAMBAHAN FITUR]
+Selain jokes yang berbentuk teks, saat ini teman-teman bisa mendapatkan jokes Oniel secara random dalam bentuk video (dapat diputar langsung dari Telegram mobile). Gunakan command '/video' untuk mendapatkan random jokes video Oniel!
+
+[PENAMBAHAN FITUR]
+Kalian pernah dengar jokes Oniel tapi bingung di acara apa? Tenang, kalian dapat mencari jokes Oniel cukup dengan satu kata kunci!. Gunakan command '/cari' + kata kunci untuk mendapatkan informasi mengenai jokes Oniel yang sedang dicari
+
+[PENAMBAHAN FITUR]
+Petunjuk penggunaan dan command yang dapat digunakan dapat diakses melalui '/help' atau dapat mengakses melalui menu yang tersedia di sebelah kiri input text (pojok kiri bawah)
+
+Bagi teman-teman yang menemukan jokes Oniel yang belum ada, kalian bisa ikut berpartisipasi menambahkan jokesnya dengan menggunakan command '/input' Input menggunakan Google Form dan jokes yang masuk akan divalidasi terlebih dahulu. Updatenya bisa dicek melalui Spreadsheet
+
+---
+13 September 2023, 18.18 WIB
+[Broadcast Message from BotOniel] 
+Selamat Malam. Terima kasih untuk teman-teman yang telah dan masih menggunakan BotOniel. 
+ 
+Pesan ini merupakan update dari pengembangan BotOniel. Segala pembaruan dan informasi mengenai bot ini akan diumumkan melalui broadcast message maupun akun X 'iqbalarpake48'. Dengan ini kami juga menginformasikan bahwa tertanggal 1 September 2023 lalu kami mulai mengumpulkan data dari kalian untuk keperluan pengiriman broadcast message dan menghitung jumlah pengguna BotOniel. 
+ 
+Jika teman-teman menemukan kendala/bug pada bot ini, kalian dapat mention ke akun X kami 
+Terima kasih 
+Iqbal AR
+
+---
+28 September 2023, 10.21 WIB
+[Broadcast Message from BotOniel]
+ 
+Selamat Pagi. Kami informasikan mengenai pembaruan pada BotOniel. 
+- Perbaikan bug tanggal pada output /jokes 
+- Perubahan format tanggal yang ditampilkan pada output command /jokes 
+- Hasil pencarian jokes akan menampilkan link video jika tersedia 
+- Pembaruan form input jokes 
+ 
+Informasi: Jokes pada bot ini akan selalu diperbarui setiap Oniel mengeluarkan jokes baru. 
+ 
+Jika terdapat permasalahan pada bot ini, dapat melakukan mention ke akun X 'iqbalarpake48'
+ 
+Terima kasih 
+Iqbal AR
+
+---
+1 November 2023, 16.30 WIB
+[Broadcast Message from BotOniel]
+ 
+Selamat Sore. Kami informasikan mengenai pembaruan pada BotOniel. 
+- Penambahan command /tweet untuk menampilkan tweet random Oniel
+- Penambahan dan pembaruan database klip video Oniel
+- Pembaruan algoritma terkait randomize jokes, quote, tweet, dan video
+ 
+Informasi: Jokes pada bot ini akan selalu diperbarui setiap Oniel mengeluarkan jokes baru. Untuk tweet dan video akan diperbanyak secara berkala
+ 
+Jika terdapat permasalahan pada bot ini, dapat melakukan mention ke akun X 'iqbalarpake48'
+ 
+Terima kasih 
+Iqbal AR
+
+---
+5 November 2023, 12.00 WIB
+[Broadcast Message from BotOniel]
+ 
+Selamat Siang. Mohon bantuannya untuk mengisi kuesioner mengenai BotOniel ini
+https://forms.gle/h16392Yz7JYJFUkJA
+
+Jika ada pertanyaan, dapat mention langsung ke akun X 'iqbalarpake48'
+ 
+Terima kasih dan mohon bantuannya.
+Iqbal AR
+
+---
+6 November 2023, 18.00 WIB
+[Broadcast Message from BotOniel]
+ 
+Selamat Sore. Kami informasikan mengenai pembaruan pada BotOniel. 
+- Pembaruan pesan yang ditampilkan pada /start
+- Berdasarkan hasil survei, kami mengubah fungsi command /jokes tidak sebatas teks, namun juga termasuk video dan tweet
+- Untuk jokes berbentuk teks, pengguna dapat menggunakan command baru /text
+- Pencarian jokes menggunakan /cari sudah bisa digunakan untuk mencari video jokes yang tidak memiliki jokes versi teksnya
+ 
+Informasi: Jokes pada bot ini akan selalu diperbarui setiap Oniel mengeluarkan jokes baru. Untuk tweet dan video akan diperbanyak secara berkala
+ 
+Jika terdapat permasalahan pada bot ini, dapat melakukan mention ke akun X 'iqbalarpake48'
+ 
+Terima kasih 
+Iqbal AR
+
+---
+7 November 2023, 17.00 WIB
+[Broadcast Message from BotOniel]
+ 
+Selamat Sore. Kami informasikan mengenai pembaruan pada BotOniel. 
+- Penambahan fitur baru, DAILY JOKES
+Teman-teman bisa mendapatkan jokes Oniel secara rutin dan otomatis setiap hari dari BotOniel (kami jadwalkan pada pukul 20.00-21.00 WIB). Siapa tahu bisa jadi hiburan senggang teman-teman setelah seharian beraktivitas
+
+Fitur "Daily Jokes" dapat diaktifkan dengan menggunakan command /getdailyjokes
+Untuk mematikan fitur "Daily Jokes", silakan gunakan command /removedailyjokes
+
+- Perbaikan bug pada Tweet yang tidak dapat menampilkan link preview
+Jika masih mengalami error saat menampilkan preview link Twitter/X, teman-teman dapat mengaktifkan Link Preview pada pengaturan aplikasi Telegram
+(Settings -> Privacy and Security -> Secret Chat -> Aktifkan button "Link Preview")
+ 
+Dalam beberapa waktu ke depan, tidak akan ada pembaruan fitur kecuali jika ditemukan bug/error. Kami akan berfokus melengkapi database jokes Oniel yang kurang atau menambahkan yang belum ada. Teman-teman bisa berpartisipasi untuk input jokes dari Oniel dengan menggunakan command /input
+ 
+Jika terdapat permasalahan pada bot ini, dapat melakukan mention ke akun X 'iqbalarpake48'
+ 
+Terima kasih 
+Iqbal AR
