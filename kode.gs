@@ -16,10 +16,17 @@ var data = {
   };
   UrlFetchApp.fetch('https://api.telegram.org/bot' + telegramToken + '/', data);
 }
-
-
-// Fungsi untuk mengambil jokes acak
+// Fungsi untuk mengambil jokes acak: Bentuk teks maupun video
 function getRandomJokes() {
+  var functions = [getRandomJokesText, getRandomVideoUrl]; // Daftar fungsi yang akan dipanggil secara acak
+  
+  var randomIndex = Math.floor(Math.random() * functions.length); // Mengacak indeks fungsi yang akan dipanggil
+
+  return functions[randomIndex](); // Memanggil fungsi yang telah dipilih secara acak
+}
+
+// Fungsi untuk mengambil jokes teks acak
+function getRandomJokesText() {
   var spreadsheetId = "Spreadsheet-ID"; // Ganti dengan ID spreadsheet Anda
   var sheetName = "Sheet"; // Ganti dengan nama lembar kerja Anda
   var startRow = 2; // Baris pertama dengan data (hindari header)
@@ -104,6 +111,8 @@ function getRandomVideoUrl() {
   return randomData;
 }
 
+
+
 // Fungsi untuk mencari jokes Oniel
 function cariJokes(query) {
   var spreadsheetId = "Spreadsheet-ID"; // Ganti dengan ID lembar kerja Anda
@@ -124,6 +133,69 @@ function cariJokes(query) {
   resultMessage += searchResults.join("\n");
 
   return resultMessage;
+}
+
+// Fungsi untuk Menambahkan dan Menghapus ChatID pada Sheet
+function onMessageReceived(event) {
+  var message = event.message;
+  var chatId = message.chat.id;
+
+  // Panggil fungsi untuk mengecek dan menambahkan Chat ID ke lembar Google Sheets
+  checkAndAddChatId(chatId);
+}
+
+function checkAndAddChatId(chatId) {
+  var spreadsheetId = "ID-Spreadsheet"; // Ganti dengan ID lembar kerja Anda
+  var sheetName = "Nama-Sheet"; // Ganti dengan nama lembar kerja Anda
+  var ss = SpreadsheetApp.openById(spreadsheetId);
+  var sheet = ss.getSheetByName(sheetName);
+  var dataRange = sheet.getRange('A2:A'); // Ganti dengan rentang kolom yang diinginkan
+  var data = dataRange.getValues();
+  var searchResult = -1;
+  
+
+  // Mencari nilai yang sesuai dalam kolom
+  for (var i = 0; i < data.length; i++) {
+    if (data[i][0] === chatId) {
+      searchResult = i + 1; // Indeks baris pertama adalah 1
+      break;
+    }
+  }
+
+  if (searchResult !== -1) {
+    Logger.log("Akun anda sudah terdaftar mengaktifkan fitur Daily Jokes");
+  } else {
+    Logger.log("Sistem mengaktifkan Daily Jokes untuk akun anda \nAnda akan menerima jokes rutin setiap hari di antara pukul 20.00-21.00 WIB. Terima kasih");
+    var columnToWrite = 1;
+    var lastRow = sheet.getLastRow();
+    sheet.getRange(lastRow + 1, columnToWrite).setValue(chatId);
+  }
+}
+
+function checkAndDeleteChatId(chatId) {
+  var spreadsheetId = "ID-Spreadsheet"; // Ganti dengan ID lembar kerja Anda
+  var sheetName = "Nama-Sheet"; // Ganti dengan nama lembar kerja Anda
+  var ss = SpreadsheetApp.openById(spreadsheetId);
+  var sheet = ss.getSheetByName(sheetName);
+  var dataRange = sheet.getRange('A2:A'); // Ganti dengan rentang kolom yang diinginkan
+  var data = dataRange.getValues();
+  var searchResult = -1;
+  
+
+  // Mencari nilai yang sesuai dalam kolom
+  for (var i = 0; i < data.length; i++) {
+    if (data[i][0] === chatId) {
+      searchResult = i + 1; // Indeks baris pertama adalah 1
+      break;
+    }
+  }
+
+  if (searchResult !== -1) {
+    sheet.deleteRow(searchResult + 1);
+    Logger.log("Sistem menonaktifkan Daily Jokes untuk akun anda. Terima kasih");
+  } else {
+    Logger.log("Akun anda tidak terdaftar untuk fitur Daily Jokes");
+  }
 }
 
 // Fungsi mengirim Broadcast Message (tidak perlu dideploy, cukup run function ini melalui Apps Script)
@@ -151,6 +223,9 @@ function doPost(e) {
  
     if(updates.message.text === "/jokes"){
       sendText(updates.message.chat.id,getRandomJokes());
+    }
+    if(updates.message.text === "/text"){
+      sendText(updates.message.chat.id,getRandomJokesText());
     }
     if(updates.message.text === "/quote"){
       sendText(updates.message.chat.id,getRandomQuote());
