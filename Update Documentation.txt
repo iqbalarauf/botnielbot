@@ -119,3 +119,24 @@ Jika terdapat permasalahan pada bot ini, dapat melakukan mention ke akun X 'iqba
  
 Terima kasih 
 Iqbal AR
+
+---
+7 November 2023, 17.00 WIB
+
+Selamat Sore. Kami informasikan mengenai pembaruan pada BotOniel. 
+- Penambahan fitur baru, DAILY JOKES
+Teman-teman bisa mendapatkan jokes Oniel secara rutin dan otomatis setiap hari dari BotOniel (kami jadwalkan pada pukul 20.00-21.00 WIB). Siapa tahu bisa jadi hiburan senggang teman-teman setelah seharian beraktivitas
+
+Fitur "Daily Jokes" dapat diaktifkan dengan menggunakan command /getdailyjokes
+Untuk mematikan fitur "Daily Jokes", silakan gunakan command /removedailyjokes
+
+- Perbaikan bug pada Tweet yang tidak dapat menampilkan link preview
+Jika masih mengalami error saat menampilkan preview link Twitter/X, teman-teman dapat mengaktifkan Link Preview pada pengaturan aplikasi Telegram
+(Settings -> Privacy and Security -> Secret Chat -> Aktifkan button "Link Preview")
+ 
+Dalam beberapa waktu ke depan, tidak akan ada pembaruan fitur kecuali jika ditemukan bug/error. Kami akan berfokus melengkapi database jokes Oniel yang kurang atau menambahkan yang belum ada. Teman-teman bisa berpartisipasi untuk input jokes dari Oniel dengan menggunakan command /input
+ 
+Jika terdapat permasalahan pada bot ini, dapat melakukan mention ke akun X 'iqbalarpake48'
+ 
+Terima kasih 
+Iqbal AR
